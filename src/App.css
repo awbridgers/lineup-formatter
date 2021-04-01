@@ -1,38 +1,42 @@
+
 .App {
   text-align: center;
+  margin: auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.textInput{
+  height:200px;
+  width:50%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form{
   display: flex;
-  flex-direction: column;
+  flex-flow: column nowrap;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.submit{
+  height:50px;
+  width:100px;
+}
+.csv{
+  height:50px;
+  width:100px;
+}
+.csv a{
+  text-decoration: none;
+  color: black;
+  flex-grow: 1;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height:100%;
+  width:100%;
+  
+}
+.csv a:hover{
+  cursor: default;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

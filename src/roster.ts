@@ -1,0 +1,20 @@
+export const roster:string[] = [
+  "Jahcobi Neath",
+  "Isaiah Mucius",
+  "Jalen Johnson",
+  "Daivien Williamson",
+  "Tariq Ingraham",
+  "Ian DuBose",
+  "Quadry Adams",
+  "Jonah Antonio",
+  "Isaiah Wilkins",
+  "Ismael Massoud",
+  "Emmanuel Okpomo",
+  "Blake Buchanan",
+  "Ody Oguama",
+  "Sunday Okeke",
+  "Anthony Mathis",
+  "Grant Van Beveren",
+  "Miles Lester",
+  "Carter Whitt"
+];
