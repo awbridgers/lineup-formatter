@@ -11,7 +11,7 @@ export const roster:string[] = [
   "Matthew Marsh",
   "RJ Kennah",
   "Luc Robinson",
-  "Anthony Mathis",
+  "Anthony Mathis Jr",
   "Kevin Dunn",
   "Damari Monsanto",
   "Tariq Ingraham",

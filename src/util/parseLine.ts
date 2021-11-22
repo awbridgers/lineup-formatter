@@ -13,7 +13,10 @@ export const parseLine = (line: string): Lineup => {
   );
   //get the players
   playersArray.forEach((name, i) => {
-    const [lastName, firstName] = name.split(' ');
+    //because some players have 2 last names or a jr,
+    //reverse to get first name, then combine whatever is left for last name
+    const [firstName, ...rest] = name.toLowerCase().split(' ').reverse();
+    const lastName = rest.reverse().join(' ')
     const playerName = findPlayer(firstName, lastName);
     lineup.push(playerName);
   });

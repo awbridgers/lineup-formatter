@@ -12,7 +12,7 @@ const App = () => {
     const noNewLines = data.replace(/\n/g, ' ');
     //this gives us the data we need line by line.
     const dataArray = noNewLines.match(
-      /(\d+- [a-zA-z]+ [a-zA-z]+\/\s?){5}(\d \d+:\d+ ){2}\d+:\d+ \d+-\d+ (-?\d+ ){5}\d.\d+/g
+      /(\d+- ([a-zA-z]+\s?){2,3}?\/\s?){5}(\d \d+:\d+ ){2}\d+:\d+ \d+-\d+ (-?\d+ ){5}\d.\d+/g
     );
     if (dataArray) {
       let resultsArray: Lineup[] = [];

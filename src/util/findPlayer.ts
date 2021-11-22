@@ -4,7 +4,8 @@ export const findPlayer = (firstName: string, lastName: string): string => {
   //break roster into first and last names
   const splitRoster = roster.map((name) => {
     const lower = name.toLowerCase();
-    const [first, last] = lower.split(' ', 2);
+    const [first, ...rest] = lower.split(' ');
+    const last = rest.join(' ');
     return {first, last};
   });
   //now check the last names
