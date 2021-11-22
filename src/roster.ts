@@ -15,7 +15,7 @@ export const roster:string[] = [
   "Kevin Dunn",
   "Damari Monsanto",
   "Tariq Ingraham",
-  "Grant Van Beveren",
+  "Grant van Beveren",
   "Miles Lester",
   "Carter Whitt"
 ];
