@@ -6,7 +6,6 @@ export const findPlayer = (firstName: string, lastName: string): string => {
     const lower = name.toLowerCase();
     const [first, ...rest] = lower.split(' ');
     const last = rest.join(' ');
-    console.log(first, last)
     return {first, last};
   });
   //now check the last names
