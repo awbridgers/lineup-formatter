@@ -18,7 +18,8 @@ export const parseLine = (line: string): Lineup => {
     const nameArray = name.split(' ')
     const firstName = nameArray.pop()!;
     const lastName = nameArray.join(' ')
-    const playerName = findPlayer(firstName, lastName);
+    console.log(firstName, lastName)
+    const playerName = findPlayer(firstName.toLowerCase(), lastName.toLowerCase());
     lineup.push(playerName);
   });
   //now handle the data
